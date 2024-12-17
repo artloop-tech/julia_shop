@@ -8,16 +8,19 @@
   }
 
   .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .space {
+    height: 15vw;
   }
 </style>
 
 <main class="main">
+  <div class="space"></div>
   <div class="content">
     <stripe-pricing-table pricing-table-id="prctbl_1QWRcZDMAwzxMJIIu9gbCyI9"
       publishable-key="pk_live_51QWOfxDMAwzxMJIILTUPkGZHQFsdSYu8D92Z0beOzrWBmrW0KTiKUI81HlbSCCv7O8i5tVherNm5kdGjL4RvKKLQ00ewxfryza">
